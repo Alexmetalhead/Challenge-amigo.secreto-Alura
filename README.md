@@ -30,5 +30,8 @@ Lo subi en su version final
 
 ![image](https://github.com/user-attachments/assets/8d5fcdcc-d051-4c7c-9b91-a23d4121256d)
 
+Modificacion de ultima hora, en vista que todos agregaron un boton de reiniciar (segun live de youtube challenger amigo secreto), lo hice quedo de la siguiente manera.
+
+![image](https://github.com/user-attachments/assets/144772d9-2767-49ea-8f8a-59e09433f96f)
 
 
