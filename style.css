@@ -6,6 +6,9 @@
     --color-button-hover: #e55720;
     --color-text: #444444;
     --color-white: #FFFFFF;
+    --color-green: #05DF05;
+    --color-black: #000000;
+    --color-gray: #727D73;
 }
 
 /* Estilos generales */
@@ -122,24 +125,22 @@ button {
 }
 
 .button-add:hover {
-    background-color: #a1a1a1;
+    background-color: var(--color-gray);
 }
+.añadir-color {
+    color: var(--color-black);
 
+}
+.name-list{
+    color: var(--color-black);
+    font-weight: bold;
+}
 /* Listas */
 ul {
     list-style-type: none;
-    color: var(--color-text);
     font-family: "Inter", sans-serif;
     font-size: 18px;
     margin: 20px 0;
-}
-
-.result-list {
-    margin-top: 15px;
-    color: #05DF05;
-    font-size: 22px;
-    font-weight: bold;
-    text-align: center;
 }
 
 /* Botón de sortear título */
@@ -159,4 +160,27 @@ ul {
 
 .button-draw:hover {
     background-color: var(--color-button-hover);
+}
+.button-reset {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px 40px;
+    margin-top: 10px;
+    color: var(--color-white);
+    background-color: #d9534f; /* Rojo */
+    font-size: 20px;
+    border: 2px solid #000;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    
+}
+
+.button-reset img {
+    margin-right: 40px;
+}
+
+.button-reset:hover {
+    background-color: #c9302c; /* Rojo más oscuro */
 }

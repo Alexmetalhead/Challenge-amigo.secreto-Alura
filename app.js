@@ -63,8 +63,9 @@ function limpiarCaja() {
     document.getElementById("amigo").value = "";
 }
 
-// Función para reiniciar el juego
 function reiniciarJuego() {
     listaAmigos = [];
-    asignarTextoElemento("ul", "");
+    asignarTextoElemento("#listaAmigos", "");
+    asignarTextoElemento("#resultado", "");
+    document.getElementById("amigo").value = "";
 }
